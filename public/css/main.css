@@ -1,0 +1,69 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Header */
+.nav-pills {
+    margin: 10px 0;
+}
+
+#header label {
+    color: white;
+}
+
+/* Edit view */
+.edit-story {
+    margin: 10px auto;
+}
+
+.edit-story .panel textarea {
+    height: 500px;
+}
+
+/* Improve View */
+.edit-icons {
+    margin-top: -18px;
+}
+
+.edit-icons span {
+    margin: 0 2px;
+}
+
+.panel textarea {
+    width: 100%;
+    min-height: 80px;
+}
+
+/* Read View */
+.share img {
+    margin: 60px auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+footer nav ul {
+    width: 100%;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
