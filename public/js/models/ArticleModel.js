@@ -21,7 +21,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/submit-article.json",
+                    url: Common.api_url + "/api/submit-article.json",
                     dataType: 'json',
                     data: {
                         "title": title,
@@ -45,7 +45,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/edit-article.json",
+                    url: Common.api_url + "/api/edit-article.json",
                     dataType: 'json',
                     data: {
                         "id" : id,
@@ -69,7 +69,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/vote-up.json",
+                    url: Common.api_url + "/api/vote-up.json",
                     dataType: 'json',
                     data : {
                         "id" : id
@@ -92,7 +92,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/vote-down.json",
+                    url: Common.api_url + "/api/vote-down.json",
                     dataType: 'json',
                     data : {
                         "id" : id

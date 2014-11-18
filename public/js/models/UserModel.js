@@ -41,7 +41,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/login.json",
+                    url: Common.api_url + "/api/login.json",
                     dataType: 'json',
                     data: {
                         "username": username,
@@ -64,7 +64,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/logout.json",
+                    url: Common.api_url + "/api/logout.json",
                     dataType: 'json',
                     success: function (data) {
                         successCallback(data);
@@ -81,7 +81,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/sign-up.json",
+                    url: Common.api_url + "/api/sign-up.json",
                     dataType: 'json',
                     data: {
                         "username": username,
@@ -104,7 +104,7 @@ define([
 
                 $.ajax({
                     type: "GET",
-                    url: "/api/current-user.json",
+                    url: Common.api_url + "/api/current-user.json",
                     dataType: 'json',
                     success: function (data) {
                         successCallback(data);

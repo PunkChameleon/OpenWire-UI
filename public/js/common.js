@@ -16,7 +16,8 @@ define([
     };
 
     return {
-        app_namespace: OW
+        app_namespace: OW,
+        api_url : "http://openwi.re"
     };
 
 });

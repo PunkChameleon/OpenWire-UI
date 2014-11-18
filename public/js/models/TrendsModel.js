@@ -15,7 +15,7 @@ define([
 
                 $.ajax({
                     type: "POST",
-                    url: "/api/get-trends.json",
+                    url: Common.api_url + "/api/get-trends.json",
                     dataType: 'json',
                     data : {
                         lat: lat,

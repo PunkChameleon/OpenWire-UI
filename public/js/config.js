@@ -3,7 +3,7 @@ require.config({
     baseUrl: "js",
 
     paths: {
-        'jquery': 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min',
+        'jquery': 'vendor/jquery-1.11.1.min',
         'underscore': 'vendor/underscore.min',
         'backbone': 'vendor/backbone.min',
         'marionette': 'vendor/backbone.marionette',
