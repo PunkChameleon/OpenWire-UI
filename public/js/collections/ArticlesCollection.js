@@ -19,7 +19,7 @@ define([
 
                 $.ajax({
                     type: "GET",
-                    url: "/api/flux-articles.json",
+                    url: Common.api_url + "/api/flux-articles.json",
                     dataType: 'json',
                     success: function (data) {
                         that.set(data);
@@ -35,7 +35,7 @@ define([
 
                 $.ajax({
                     type: "GET",
-                    url: "/api/recent-articles.json",
+                    url: Common.api_url + "/api/recent-articles.json",
                     dataType: 'json',
                     success: function (data) {
                         that.set(data);
