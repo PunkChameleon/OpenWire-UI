@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/streetlight/OpenWire-UI.git"
+    "url": "https://github.com/PunkChameleon/OpenWire-UI.git"
   },
-  "author": "streetlight <nweingartner@gmail.com> (http://github.com/streetlight)",
+  "author": "PunkChameleon <nweingartner@gmail.com> (http://github.com/PunkChameleon)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/streetlight/OpenWire-UI/issues"
+    "url": "https://github.com/PunkChameleon/OpenWire-UI/issues"
   },
-  "homepage": "https://github.com/streetlight/OpenWire-UI",
+  "homepage": "https://github.com/PunkChameleon/OpenWire-UI",
   "devDependencies": {
     "grunt-jslint": "~1.1.12",
     "grunt": "~0.4.5",
